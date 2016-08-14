@@ -30,7 +30,7 @@ import 'zone.js/dist/zone';
 
 // Typescript emit helpers polyfill
 import 'ts-helpers';
-
+require('offline-plugin/runtime').install();
 if ('production' === ENV) {
   // Production
 
